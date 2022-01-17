@@ -5,7 +5,7 @@ import StyledMessageList, { ChatList } from "./style";
 import MessageCard from "components/MessageCard";
 import FilterList from "components/FilterList";
 
-import face1 from "assets/images/face-male-2.jpg";
+import face1 from "assets/images/face-male-3.jpg";
 import { animated } from "@react-spring/web";
 import useStaggeredList from "hooks/useStaggeredList";
 
@@ -33,7 +33,7 @@ function MessageList({ children, ...rest }) {
               active={index === 3}
               replied={index % 3 === 0}
               avatarSrc={face1}
-              name="啊哈"
+              name="想不出来"
               avatarStatus="online"
               statusText="在线"
               time="3 小时之前"

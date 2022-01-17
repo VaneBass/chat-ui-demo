@@ -46,7 +46,7 @@ function VideoCall({ children, onHangOffClicked, ...rest }) {
             grid-area: info;
           `}
         >
-          正在与 我不知道 进行视频通话
+          正在与 想不出来 进行视频通话
         </Paragraph>
         <Paragraph
           css={`
